@@ -1,16 +1,4 @@
-public class FRUIT {
-    // Data members
-    String color;
-    String taste;
-    double price;
-
-    // Method to display values
-    void display() {
-        System.out.println("Color: " + color);
-        System.out.println("Taste: " + taste);
-        System.out.println("Price: " + price);
-        System.out.println();
-    }
+public class Mavenproject1 {
 
     public static void main(String[] args) {
 
@@ -34,9 +22,26 @@ public class FRUIT {
         f3.taste = "Sour";
         f3.price = 50;
 
-        // Calling display() for all objects
+        // Calling display()
         f1.display();
         f2.display();
         f3.display();
+    }
+}
+
+// FRUIT class
+class FRUIT {
+
+    // Data members
+    String color;
+    String taste;
+    double price;
+
+    // Method to display values
+    void display() {
+        System.out.println("Color: " + color);
+        System.out.println("Taste: " + taste);
+        System.out.println("Price: " + price);
+        System.out.println();
     }
 }
