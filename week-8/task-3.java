@@ -1,27 +1,30 @@
-public class FRUIT {
+public class Task3 {
 
-    // Data members
-    String color;
-    String taste;
-    double price;
+    static class FRUIT {
 
-    // Constructor
-    FRUIT(String c, String t, double p) {
-        color = c;
-        taste = t;
-        price = p;
-    }
+        // Data members
+        String color;
+        String taste;
+        double price;
 
-    // Method to display values
-    void display() {
-        System.out.println("Color: " + color);
-        System.out.println("Taste: " + taste);
-        System.out.println("Price: " + price);
+        // Constructor
+        FRUIT(String c, String t, double p) {
+            color = c;
+            taste = t;
+            price = p;
+        }
+
+        // Display method
+        void display() {
+            System.out.println("Color: " + color);
+            System.out.println("Taste: " + taste);
+            System.out.println("Price: " + price);
+        }
     }
 
     public static void main(String[] args) {
 
-        // Creating object and passing values to constructor
+        // Creating object using constructor
         FRUIT f = new FRUIT("Red", "Sweet", 80);
 
         // Displaying values
