@@ -1,26 +1,29 @@
-public class FRUIT {
-    
-    // Data members
-    String color;
-    String taste;
-    double price;
+public class Task2 {
 
-    // Method to set values
-    void setDetails(String c, String t, double p) {
-        color = c;
-        taste = t;
-        price = p;
-    }
+    static class FRUIT {
 
-    // Method to display values
-    void display() {
-        System.out.println("Color: " + color);
-        System.out.println("Taste: " + taste);
-        System.out.println("Price: " + price);
+        // Data members
+        String color;
+        String taste;
+        double price;
+
+        // Method to set values
+        void setDetails(String c, String t, double p) {
+            color = c;
+            taste = t;
+            price = p;
+        }
+
+        // Method to display values
+        void display() {
+            System.out.println("Color: " + color);
+            System.out.println("Taste: " + taste);
+            System.out.println("Price: " + price);
+        }
     }
 
     public static void main(String[] args) {
-        
+
         // Creating object
         FRUIT f = new FRUIT();
 
