@@ -1,38 +1,41 @@
-public class FRUIT {
+public class Task5 {
 
-    // Data members
-    String color;
-    String taste;
-    double price;
+    static class FRUIT {
 
-    // Default constructor
-    FRUIT() {
-        this("Unknown", "Unknown", 0);
-    }
+        // Data members
+        String color;
+        String taste;
+        double price;
 
-    // One-argument constructor
-    FRUIT(String c) {
-        this(c, "Unknown", 0);
-    }
+        // Default constructor
+        FRUIT() {
+            this("Unknown", "Unknown", 0);
+        }
 
-    // Two-argument constructor
-    FRUIT(String c, String t) {
-        this(c, t, 0);
-    }
+        // One-argument constructor
+        FRUIT(String c) {
+            this(c, "Unknown", 0);
+        }
 
-    // Three-argument constructor
-    FRUIT(String c, String t, double p) {
-        color = c;
-        taste = t;
-        price = p;
-    }
+        // Two-argument constructor
+        FRUIT(String c, String t) {
+            this(c, t, 0);
+        }
 
-    // Display method
-    void display() {
-        System.out.println("Color: " + color);
-        System.out.println("Taste: " + taste);
-        System.out.println("Price: " + price);
-        System.out.println();
+        // Three-argument constructor
+        FRUIT(String c, String t, double p) {
+            color = c;
+            taste = t;
+            price = p;
+        }
+
+        // Display method
+        void display() {
+            System.out.println("Color: " + color);
+            System.out.println("Taste: " + taste);
+            System.out.println("Price: " + price);
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
