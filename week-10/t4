@@ -1,0 +1,37 @@
+package com.mycompany.mavenproject3;
+    
+class ObjectOriented {
+    void abstraction() {
+        System.out.println("Abstraction is an OOP concept.");
+    }
+
+    void polymorphism() {
+        System.out.println("Polymorphism is an OOP concept.");
+    }
+
+    void inheritance() {
+        System.out.println("Inheritance is an OOP concept.");
+    }
+}
+class JavaLanguage extends ObjectOriented {
+
+    void persistence() {
+        System.out.println("Java supports persistence.");
+    }
+
+    void interfaces() {
+        System.out.println("Java supports interfaces.");
+    }
+
+    public static void main(String[] args) {
+
+        JavaLanguage obj = new JavaLanguage();
+
+        obj.abstraction();
+        obj.polymorphism();
+        obj.inheritance();
+
+        obj.persistence();
+        obj.interfaces();
+    }
+}
