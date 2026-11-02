@@ -1,0 +1,34 @@
+package com.mycompany.mavenproject3;
+
+class MinMaxAdd {
+
+    void minMaxAdd(int a, int b) {
+        System.out.println("Integer Numbers:");
+        System.out.println("Minimum = " + Math.min(a, b));
+        System.out.println("Maximum = " + Math.max(a, b));
+        System.out.println("Addition = " + (a + b));
+    }
+
+    void minMaxAdd(double a, double b) {
+        System.out.println("\nReal Numbers:");
+        System.out.println("Minimum = " + Math.min(a, b));
+        System.out.println("Maximum = " + Math.max(a, b));
+        System.out.println("Addition = " + (a + b));
+    }
+
+    void minMaxAdd(char a, char b) {
+        System.out.println("\nCharacters:");
+        System.out.println("Minimum = " + (char)Math.min(a, b));
+        System.out.println("Maximum = " + (char)Math.max(a, b));
+        System.out.println("Addition = " + (a + b));
+    }
+
+    public static void main(String[] args) {
+
+        MinMaxAdd obj = new MinMaxAdd();
+
+        obj.minMaxAdd(10, 20);
+        obj.minMaxAdd(12.5, 25.5);
+        obj.minMaxAdd('A', 'B');
+    }
+}
